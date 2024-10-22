@@ -1,4 +1,8 @@
-// The Swift Programming Language
-// https://docs.swift.org/swift-book
+import Foundation
 
-print("Hello, world!")
+let debugMode: Bool = true
+
+if debugMode {
+    let debugUtil: debug = debug()
+    try debugUtil.debug()
+}

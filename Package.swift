@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let package = Package(
+let package: Package = Package(
     name: "Video-like Thing",
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
