@@ -1,0 +1,22 @@
+{
+	"configurations": [
+		{
+			"type": "lldb",
+			"request": "launch",
+			"args": [],
+			"cwd": "${workspaceFolder:Video-like Thing}",
+			"name": "Debug Video-like Thing",
+			"program": "${workspaceFolder:Video-like Thing}/.build/debug/Video-like Thing",
+			"preLaunchTask": "swift: Build Debug Video-like Thing"
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"args": [],
+			"cwd": "${workspaceFolder:Video-like Thing}",
+			"name": "Release Video-like Thing",
+			"program": "${workspaceFolder:Video-like Thing}/.build/release/Video-like Thing",
+			"preLaunchTask": "swift: Build Release Video-like Thing"
+		}
+	]
+}
